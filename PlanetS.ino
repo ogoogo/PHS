@@ -170,13 +170,13 @@ void turn(int u){
         digitalWrite(IN2R, LOW);
         digitalWrite(IN1L, LOW);
         digitalWrite(IN2L, HIGH);
-        delay(1000);
+        delay(2800);
     }else if(u==3){
         digitalWrite(IN1R, LOW);
         digitalWrite(IN2R, HIGH);
         digitalWrite(IN1L, HIGH);
         digitalWrite(IN2L, LOW);
-        delay(1000);
+        delay(2800);
     }
 
 }
